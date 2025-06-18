@@ -1,0 +1,8 @@
+version: '1.0'
+entryPoint: handler
+environment:
+  TVM_CLIENT_ID: "XXXX"
+  CURRENT_USER: "XXXX"
+serviceAccount: ${SERVICE_ACCOUNT_ID}  # Your service account ID
+networkSettings:
+  enabled: true
